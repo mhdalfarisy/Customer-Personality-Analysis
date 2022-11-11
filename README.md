@@ -88,9 +88,13 @@
   
 <br>
 
+<table>
+<tbody>
+ <tr>
+
 <h1 align="left">Data Visualization</h1>
   
-<td align="left" width="30%">
+<td align="left" width="20%">
 <span><b><Left>E-Commers Pakistan</center></b></span> 
 <code><a href="https://public.tableau.com/app/profile/muhammad.al.farisy6147/viz/ProjectE-CommersPakistanDashboard/Dashboard1" target="_blank">
 <img height=200px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/Pakistan%20Visualisasi.png"> 
@@ -107,7 +111,7 @@
 <td align="left" width="25%">
 <span><b><left>Telco Customer Churn</center></b></span> 
 <code><a href="https://public.tableau.com/app/profile/muhammad.al.farisy6147/viz/CustomerChunVisualization/Dashboard2?publish=yes" target="_blank">
-<img height=200px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/Telco%20Customer%20%2022.png"> 
+<img height=200px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/Telco%20Customer%20Churn.png"> 
 </td>
  
 </tbody>
