@@ -1,5 +1,38 @@
 # Segmentation Customer Supermarket
 
+
+- [Problem Statement](#problem-statement)
+- [Objectives](#objectives)
+- [Analytical Approach](#analytical-approach)
+- [Definisi Kolom](#definisi-kolom)
+- [Kesimpulan](#kesimpulan)
+- [Saran](#saran)
+- [Others Project](#others-project)
+  
+
+### **Problem Statement**
+
+
+### **Objectives**
+  
+### **Analytical Approach**
+
+
+### **Definisi Kolom**
+#
+
+| **Nama Kolom** | **Keterangan Kolom** |
+
+
+
+### **Kesimpulan**
+
+
+
+### **Saran**
+
+
+
 <br>
 
 # **OTHERS PROJECT**
