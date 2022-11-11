@@ -69,21 +69,24 @@
  <tr>  
   
 <!-- <tr> -->
-<td align="left" width="25%">
+<td align="center" width="50%">
 <span><b><left>Segmentation Customer Mall</center></b></span> 
 <code><a href="https://github.com/mhdalfarisy/Segmentation-Customer-Mall" target="_blank">
-<img height=200px src="https://github.com/mhdalfarisy/Segmentation-Customer-Mall/blob/main/2.-Customer-Segmentation.jpg"> 
+<img height=250px src="https://github.com/mhdalfarisy/Segmentation-Customer-Mall/blob/main/2.-Customer-Segmentation.jpg"> 
 </td>
+ 
+<!-- <tr> -->
+<td align="center" width="50%">
+<span><b><left>Segmentation Customer Supermarket</center></b></span>
+<code><a href="https://github.com/mhdalfarisy/Customer-Supermarket" target="_blank">
+<img height=250px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/istockphoto-1254636143-612x612.jpg"> 
+</td> 
  
 </tbody>
 </table>
  <tr>
   
 <br>
-
-<table>
-<tbody>
- <tr>
 
 <h1 align="left">Data Visualization</h1>
   
