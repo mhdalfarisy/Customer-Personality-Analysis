@@ -5,6 +5,7 @@
 - [Objectives](#objectives)
 - [Analytical Approach](#analytical-approach)
 - [Definisi Kolom](#definisi-kolom)
+- [Data Analyst dan Clustering](#data-analyst-dan-clustering) 
 - [Kesimpulan](#kesimpulan)
 - [Saran](#saran)
 - [Others Project](#others-project)
@@ -62,6 +63,7 @@ Dalam analisa ini akan dilakukan 2 tahapan :
 |NumStorePurchases| Number of purchases made directly in stores|
 |NumWebVisitsMonth| Number of visits to company’s web site in the last month|
 
+# Data Analyst dan Clustering
 
 ### **Kesimpulan**
 - Clustering Gold :
