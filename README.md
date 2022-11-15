@@ -11,26 +11,119 @@
   
 
 ### **Problem Statement**
+Analisis Kepribadian Pelanggan adalah analisis terperinci tentang pelanggan ideal perusahaan. Ini membantu bisnis untuk lebih memahami pelanggannya dan memudahkan mereka untuk memodifikasi produk sesuai dengan kebutuhan, perilaku, dan perhatian khusus dari berbagai jenis pelanggan.
 
+Analisis kepribadian pelanggan membantu bisnis untuk memodifikasi produknya berdasarkan target pelanggan dari berbagai jenis segmen pelanggan. Misalnya, alih-alih mengeluarkan uang untuk memasarkan produk baru ke setiap pelanggan di database perusahaan, perusahaan dapat menganalisis segmen pelanggan mana yang paling mungkin membeli produk dan kemudian memasarkan produk hanya pada segmen tertentu.
 
 ### **Objectives**
+Segmentasi berbasis nilai mengevaluasi kelompok pelanggan dalam hal pendapatan yang mereka hasilkan dan biaya untuk membangun dan memelihara hubungan dengan mereka. Ini juga membantu perusahaan menentukan segmen mana yang paling dan paling tidak menguntungkan sehingga mereka dapat menyesuaikan anggaran pemasaran mereka.
+
+Segmentasi berbasis nilai membantu mengidentifikasi pelanggan yang Memerlukan lebih banyak perhatian dari tim penjualan dan layanan.
   
 ### **Analytical Approach**
-
+Dalam analisa ini akan dilakukan 2 tahapan :
+    - Melakukan EDA untuk melihat perkembangan bisnis perusahaan
+    - Melakukan Clustering untuk menjawab permasalahan yang dibutuhkan perusahaan
 
 ### **Definisi Kolom**
 #
 
 | **Nama Kolom** | **Keterangan Kolom** |
-
+| --- | --- |
+|**PEOPLE**||
+|ID| Customer's unique identifier|
+|Year_Birth| Customer's birth year|
+|Education| Customer's education level|
+|Marital_Status| Customer's marital status|
+|Income| Customer's yearly household income|
+|Kidhome| Number of children in customer's household|
+|Teenhome| Number of teenagers in customer's household|
+|Dt_Customer| Date of customer's enrollment with the company|
+|Recency| Number of days since customer's last purchase|
+|Complain| 1 if customer complained in the last 2 years, 0 otherwise|
+|**PRODUCT**||
+|MntWines| Amount spent on wine in last 2 years|
+|MntFruits| Amount spent on fruits in last 2 years|
+|MntMeatProducts| Amount spent on meat in last 2 years|
+|MntFishProducts| Amount spent on fish in last 2 years|
+|MntSweetProducts| Amount spent on sweets in last 2 years|
+|MntGoldProds| Amount spent on gold in last 2 years|
+|**PROMOTION**||
+|NumDealsPurchases| Number of purchases made with a discount
+|AcceptedCmp1| 1 if customer accepted the offer in the 1st campaign, 0 otherwise|
+|AcceptedCmp2| 1 if customer accepted the offer in the 2nd campaign, 0 otherwise|
+|AcceptedCmp3| 1 if customer accepted the offer in the 3rd campaign, 0 otherwise|
+|AcceptedCmp4| 1 if customer accepted the offer in the 4th campaign, 0 otherwise|
+|AcceptedCmp5| 1 if customer accepted the offer in the 5th campaign, 0 otherwise|
+|Response | 1 if customer accepted the offer in the last campaign, 0 otherwise|
+|**PLACE**||
+|NumWebPurchases| Number of purchases made through the company’s web site|
+|NumCatalogPurchases| Number of purchases made using a catalogue|
+|NumStorePurchases| Number of purchases made directly in stores|
+|NumWebVisitsMonth| Number of visits to company’s web site in the last month|
 
 
 ### **Kesimpulan**
-
+- Clustering Gold :
+  - Education : Basic
+  - Age : 54
+  - Children : 1
+  - NumDealsPurchases : 2
+  - NumWebPurchases : 5
+  - NumCatalogPurchases : 5
+  - NumStorePurchases : 8
+  - NumWebVisitsMonth : 4
+  - AcceptedCmp1 : 1
+  - AcceptedCmp2 : 0
+  - AcceptedCmp3 : 1
+  - AcceptedCmp4 : 1
+  - AcceptedCmp5 : 1
+  - Income : 70.298
+  - Total_Spendings : 1.075
+  - Percentage 0,015%
+  - Customer ini memiliki pendapatan yang paling tinggi, pembelian dengan quantity terbanyak.
+  
+- Clustering Silver :
+  - Education : 2n Cycle
+  - Age : 51
+  - Children : 1
+  - NumDealsPurchases : 2
+  - NumWebPurchases : 3
+  - NumCatalogPurchases : 1
+  - NumStorePurchases : 4
+  - NumWebVisitsMonth : 7
+  - AcceptedCmp1 : 0
+  - AcceptedCmp2 : 0
+  - AcceptedCmp3 : 1
+  - AcceptedCmp4 : 0
+  - AcceptedCmp5 : 0
+  - Income : 34.561
+  - Total_Spendings : 164
+  - Percentage : 0,004%
+  - Customer ini memiliki pendapatan yang sedang, pembelian dengan quantity sedang.
+ 
+- Clustering Silver :
+  - Education : Basic
+  - Age : 54
+  - Children : 1
+  - NumDealsPurchases : 3
+  - NumWebPurchases : 4
+  - NumCatalogPurchases : 2
+  - NumStorePurchases : 5
+  - NumWebVisitsMonth : 5
+  - AcceptedCmp1 : 1
+  - AcceptedCmp2 : 0
+  - AcceptedCmp3 : 0
+  - AcceptedCmp4 : 1
+  - AcceptedCmp5 : 0
+  - Income : 666.667
+  - Total_Spendings : 471
+  - Percentage : 0,70%
+  - Customer ini memiliki pendapatan yang paling kecil, pembelian dengan quantity terkecil.
 
 
 ### **Saran**
-
+- Tim marketing perlu menjaga hubungan baik pada customer yang masuk clustering "Gold", hal ini di karenakan customer memiliki pendapatan yang tinggi dan total pengeluaran untuk belanja yang tinggi. Ini bisa menjadi peluang untuk perusahaan dan tim marketing melakukan pemasaran sedangkan untuk customer yang masuk dalam clustering 'Silver' dan 'Platinum' tidak dijadikan fokus untuk pemasaran/target hal ini dikarenakan total pendapatan dan total pengeluaran uangnya untuk belanja lebih sedikit, jika hal ini menjadi fokus perusahaan maka akan membesarkan beban pada laporan keuangannya saja.
 
 
 <br>
